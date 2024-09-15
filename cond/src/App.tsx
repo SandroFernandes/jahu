@@ -5,6 +5,8 @@ import {
   EditGuesser,
   ShowGuesser,
 } from "react-admin";
-import { Layout } from "./Layout";
+import { MyLayout } from './myLayout'; 
+import { MyAppBar } from './myAppBar';
 
-export const App = () => <Admin layout={Layout}></Admin>;
+export const App = () =>  <Admin layout={MyLayout}></Admin> 
+
